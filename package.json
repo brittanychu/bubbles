@@ -1,0 +1,46 @@
+{
+  "name": "bubbles",
+  "version": "1.0.0",
+  "description": "d3 project",
+  "main": "index.js",
+  "scripts": {
+    "build-client-watch": "webpack -w",
+    "deploy": "script/deploy",
+    "start": "node server",
+    "start-dev":
+      "NODE_ENV='development' npm run build-client-watch & npm run start-server",
+    "start-server":
+      "nodemon server -e html,js,scss --ignore public --ignore client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsc2120/bubbles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsc2120/bubbles/issues"
+  },
+  "homepage": "https://github.com/bsc2120/bubbles#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "webpack": "^2.2.1",
+    "webpack-livereload-plugin": "^1.0.0"
+  }
+}
