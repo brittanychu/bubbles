@@ -1,0 +1,14 @@
+body {
+  background-color: #69ddcc;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Bubbles-main {
+  margin: 20px;
+}
+
+.Bubbles-title {
+  font-size: 60px;
+}

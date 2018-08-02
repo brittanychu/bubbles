@@ -856,11 +856,21 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var App = function App() {
   return _react2.default.createElement(
     "div",
-    null,
+    { className: "Bubbles-main" },
     _react2.default.createElement(
       "h1",
-      null,
+      { className: "Bubbles-title" },
       "Bubbles"
+    ),
+    _react2.default.createElement(
+      "h2",
+      null,
+      "These are bubbles"
+    ),
+    _react2.default.createElement(
+      "h2",
+      null,
+      "hi chris"
     )
   );
 };
